@@ -6,9 +6,9 @@ import * as getAll from './GetAll';
 
 
 export const CidadesController = {
-	...deleteById,
-	...updateById,
-	...getById,
-	...create,
-	...getAll,
+  ...deleteById,
+  ...updateById,
+  ...getById,
+  ...create,
+  ...getAll,
 };
