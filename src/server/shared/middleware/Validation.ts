@@ -2,7 +2,6 @@ import { RequestHandler } from 'express';
 import { StatusCodes } from 'http-status-codes';
 import { Schema, ValidationError } from 'yup';
 
-
 type TProperty = 'body' | 'header' | 'params' | 'query';
 
 type TGetSchema = <T>(schema: Schema<T>) => Schema<T>
